@@ -1,0 +1,40 @@
+.Auth {
+    background: url("../../img/loginformbg.jpg") 100%;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    width: 100%;
+    padding-top: 200px;
+}
+
+.AuthForm h1 {
+    color: #ffffff;
+    position: relative;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    /*transform: translateX(-50%);*/
+}
+
+.Auth > div {
+    width: 100%;
+    max-width: 600px;
+    padding: 0 20px;
+    position: fixed;
+    left: 20%;
+}
+
+.AuthForm {
+    background: rgba(0, 0, 0, .1);
+    box-shadow: 2px 2px 2px 2px #2a74b8;
+    padding: 15px;
+    /*transform: translateX(-50%);*/
+    border-radius: 5px;
+}
+
+legend {
+    padding: 0;
+}
+

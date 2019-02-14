@@ -1,0 +1,31 @@
+.QuizList {
+    background: url("../../img/quizbg.jpg") center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+
+}
+
+.QuizList ul {
+    text-align: center;
+    list-style: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.QuizList li {
+    margin-bottom: 10px;
+}
+
+.QuizList li a {
+    text-decoration: none;
+    color: #000;
+}
+.QuizList li a:hover {
+    text-decoration: none;
+    color: orangered;
+}
